@@ -1,0 +1,142 @@
+<div className="row">
+            <form
+                className="col-sm-12 col-md-12 col-lg-6 col-xl-6"
+                onSubmit={handleSubmit(onSubmit)}
+            >
+                <div className="form-group row">
+                    <div className="col-sm-6 mb-3 mb-sm-0">
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="First Name"
+                            name="firstname"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                    <div className="col-sm-6">
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Last Name"
+                            name="lastname"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-12 mb-3 mb-sm-0">
+                        <input
+                            type="email"
+                            className="form-control"
+                            placeholder="Email"
+                            name="email"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-12 mb-3 mb-sm-0">
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Shop Name"
+                            name="shop_name"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                </div>
+                {/* <div className="form-group row">
+                <div className="col-sm-12 mb-3 mb-sm-0">
+                    <input
+                        type="file"
+                        className="form-control"
+                        placeholder="Shop Thumbnail"
+                        name="shop_thumbnail"
+                        ref={register}
+                        required
+                    />
+                </div>
+            </div> */}
+                <div className="form-group row">
+                    <div className="col-sm-12 mb-3 mb-sm-0">
+                        <input
+                            type="number"
+                            min={0}
+                            className="form-control"
+                            placeholder="Contact Number"
+                            name="contact_no"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-12 mb-3 mb-sm-0">
+                        <textarea
+                            type="text"
+                            className="form-control"
+                            placeholder="Street address"
+                            name="street_address"
+                            ref={register}
+                        ></textarea>
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-12 mb-3 mb-sm-0">
+                        <input
+                            type="number"
+                            min={0}
+                            className="form-control"
+                            placeholder="Pincode"
+                            name="pincode"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-12 mb-3 mb-sm-0">
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="City"
+                            name="city"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-12 mb-3 mb-sm-0">
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="State"
+                            name="state"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                </div>
+
+                <div className="form-group row">
+                    <div className="col-sm-12 mb-3 mb-sm-0">
+                        <input
+                            type="number"
+                            className="form-control"
+                            placeholder="Bank Account Number"
+                            name="bank_account_no"
+                            ref={register}
+                            required
+                        />
+                    </div>
+                </div>
+                <button type="submit" className="btn btn-warning btn-block" >Save</button>
+            </form>
+
+        </div>
+    
